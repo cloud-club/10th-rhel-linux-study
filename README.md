@@ -4,15 +4,39 @@
 > 리눅스를 제대로 이해하고 다루다 보면, RHCSA 자격증은 자연스럽게 따라옵니다!  
 > 혼자 하면 어렵지만, 함께하면 끝까지 완주할 수 있습니다. 꼬인 에러를 함께 풀어가며 실무 관리 역량을 다집니다.
 
-## 👥 Members (8명)
+---
 
-| <img src="https://github.com/user-attachments/assets/4ae8a4d3-995b-469d-827d-4d2f812d8fcb" width="100"><br>김기석 | <img src="https://github.com/user-attachments/assets/a8af0e3b-2d40-47c9-a8b7-006578b2dee6" width="100"><br>김보겸 | <img src="https://github.com/user-attachments/assets/fac54da4-c987-419e-84b6-8b18d957de6b" width="100"><br>김성윤 | <img src="https://github.com/github.png" width="100"><br>박시윤 |
+## 👥 Members (7명)
+
+| <img src="https://github.com/user-attachments/assets/4ae8a4d3-995b-469d-827d-4d2f812d8fcb" width="150"><br>김기석 | <img src="https://github.com/user-attachments/assets/a8af0e3b-2d40-47c9-a8b7-006578b2dee6" width="150"><br>김보겸 | <img src="https://github.com/user-attachments/assets/fac54da4-c987-419e-84b6-8b18d957de6b" width="150"><br>김성윤 | <img src="https://github.com/github.png" width="150"><br>박시윤 |
 | :---: | :---: | :---: | :---: |
 | 스터디장 | 참여자 | 참여자 | 참여자 |
 | [@kiseokkm](https://github.com/kiseokkm/) | [@k-kbk](https://github.com/k-kbk/) | [@sienna011022](https://github.com/sienna011022/) | [@github_id](https://github.com/) |
-| <img src="https://github.com/user-attachments/assets/3f966cad-ce07-4aed-a6c3-7ae7917f2546" width="100"><br>박정우 | <img src="https://github.com/user-attachments/assets/299159c0-a4f3-4c3c-9072-7337f9410658" width="100"><br>이서영 | <img src="https://github.com/user-attachments/assets/12e9515a-0f99-44d8-9593-fa79105d35a6" width="100"><br>이연호 | <img src="https://github.com/user-attachments/assets/dcd049c1-ea94-4287-a8ad-81bcd4207f24" width="100"><br>이주희 |
-| 스터디원 | 참여자 | 참여자 | 참여자 |
-| [@ParkJoungWoo](https://github.com/ParkJoungWoo/) | [@7910trio](https://github.com/7910trio/) | [@dldusgh318](https://github.com/dldusgh318/) | [@BeanMouse](https://github.com/BeanMouse/) |
+
+| <img src="https://github.com/user-attachments/assets/3f966cad-ce07-4aed-a6c3-7ae7917f2546" width="150"><br>박정우 | <img src="https://github.com/user-attachments/assets/299159c0-a4f3-4c3c-9072-7337f9410658" width="150"><br>이서영 | <img src="https://github.com/user-attachments/assets/dcd049c1-ea94-4287-a8ad-81bcd4207f24" width="150"><br>이주희 |
+| :---: | :---: | :---: |
+| 참여자 | 참여자 | 참여자 |
+| [@ParkJoungWoo](https://github.com/ParkJoungWoo/) | [@7910trio](https://github.com/7910trio/) | [@BeanMouse](https://github.com/BeanMouse/) |
+
+---
+
+## 📂 저장소 구조 (Repository Structure)
+
+```text
+10th-rhcsa-study/
+├── weeks/                          # [공용] 회차별 스터디 세션 공유 자료
+│   └── weekNN/                     # 주차별 폴더 (예: week01, week02)
+│       ├── presentation/           # 당일 발표자 2인의 발표 자료 
+│       ├── labs/                   # 발표자가 출제한 실습 문제지
+│       └── quiz.md                 # 세션 중 다 함께 푼 현장 개념 퀴즈 문제지
+│
+└── members/                        # [개인] 스터디원별 출석 & 과제 제출 공간
+    └── <github-id>/                # 개인 GitHub ID 폴더 (예: kiseokkm)
+        └── weekNN.md               # 실습 캡처 + 현장 퀴즈 답안 + 트러블슈팅 정리(선택)
+
+```
+
+---
 
 
 ## 🎯 스터디 목표 & 자료
@@ -31,13 +55,12 @@
 
 ### ⏰ 스터디 시간
 - **매주 월요일 21:00 ~ 22:30** (60분~90분)
-
-### ⏱️ 세션 타임라인 (60분~90분)
-- **10분 x 2명**: 해당 주차 핵심 개념 발표
-- **30분**: 실습 문제 2개 풀이 (발표자 2명이 각 1문제 이상 출제)
--   └ (필요 시) 세션 및 주제에 따라 개념 점검 퀴즈 포함 가능
+- ### ⏱️ 세션 타임라인 (60분~90분)
+- **20분 (10분 x 2명)**: 해당 주차 핵심 개념 발표
+- **30분**: 실습 문제 2개 풀이 (발표자 2명 출제) & 스터디장 현장 개념 퀴즈
+  - 실습 진행 상황 및 남은 시간에 따라 현장 퀴즈 유연하게 진행
 - **20분~**: 라이브 트러블슈팅 및 질의응답
-- **세션 종료 후**: 실습한 터미널 결과 캡처 및 학습 정리 업로드
+- **세션 종료 후**: 실습 터미널 결과 캡처 + 퀴즈 정답 정리 후 `members/<github-id>/weekNN.md` 작성 및 PR 제출
 
 ## 📅 8주 차 커리큘럼
 
@@ -46,7 +69,7 @@
 | **Week 1**<br>(8/31) | 사전 준비 | - 스터디 OT (자기소개, 스터디 규칙 및 GitHub 활용법)<br>- RHEL 10 / Rocky Linux 10 VM 환경 구축<br>- Shell 프롬프트 구조, 절대/상대 경로, 기본 명령어 (`ls`, `cd`, `mkdir`, `cp`, `mv`, `rm`) | 전체 |
 | **Week 2**<br>(9/7) | 계정/그룹 관리 및<br>기본 파일 권한 | - 사용자 및 그룹 생성/수정/삭제 (`useradd`, `usermod`, `groupadd`)<br>- 비밀번호 만료 정책 설정 및 Sudo 권한 부여 (`/etc/sudoers.d/`)<br>- 표준 ugo/rwx 권한 설정 (`chmod`, `chown`) 및 `umask` 이해 | 김기석<br>이주희 |
 | **Week 3**<br>(9/14) | 네트워크, Repos,<br>패키지 & SSH | - `nmcli`를 활용한 IPv4/IPv6 주소 및 Hostname 설정<br>- DNF/RPM 리포지토리 구성 및 패키지 관리 (`dnf`, `rpm`)<br>- Flatpak 리포지토리 구성 및 패키지 관리<br>- SSH 서비스 설정 및 키 기반 SSH 인증 구성 | 김보겸<br>김성윤 |
-| **Week 4**<br>(9/21) | 특수 권한, ACL,<br>탐색 & 아카이브 | - 특수 권한 (Setuid, Setgid, Sticky Bit) 및 협업 디렉토리 구축<br>- POSIX ACL 세부 권한 제어 (`setfacl`, `getfacl`)<br>- `find`, `grep` 정규표현식 활용 및 `tar`/`gzip`/`bzip2` 아카이브/압축<br>- Hard Link / Symbolic Link 생성 및 차이 이해 | 박시윤<br>이연호 |
+| **Week 4**<br>(9/21) | 특수 권한, ACL,<br>탐색 & 아카이브 | - 특수 권한 (Setuid, Setgid, Sticky Bit) 및 협업 디렉토리 구축<br>- POSIX ACL 세부 권한 제어 (`setfacl`, `getfacl`)<br>- `find`, `grep` 정규표현식 활용 및 `tar`/`gzip`/`bzip2` 아카이브/압축<br>- Hard Link / Symbolic Link 생성 및 차이 이해 | 박시윤<br>미정 |
 | **Week 5**<br>(9/28) | 로컬 스토리지, LVM,<br>파일 시스템 & AutoFS | - GPT 파티션 생성/삭제 (`fdisk`, `gdisk`)<br>- LVM (PV, VG, LV) 생성/제거 및 무손실 LV 확장 (`lvextend -r`)<br>- VFAT, ext4, XFS 생성, Swap 추가, UUID 기반 `/etc/fstab` 영구 마운트<br>- NFS 공유 마운트 및 AutoFS 자동 마운트 구성 | 이서영<br>박정우 |
 | **Week 6**<br>(10/5) | Systemd 서비스,<br>방화벽 & SELinux | - Systemd 서비스 제어 및 부팅 시 자동 시작 설정 (`systemctl`)<br>- `firewall-cmd`를 이용한 영구(`--permanent`) 방화벽 규칙 적용<br>- SELinux 모드 전환, 파일 컨텍스트 (`semanage fcontext`, `restorecon`)<br>- SELinux 포트 레이블 관리 및 Booleans 설정 변경 | 미정 |
 | **Week 7**<br>(10/12) | 작업 예약, 로그 관리,<br>시간 동기화 & Tuned | - `at`, `crontab` 작업 예약 및 Systemd Timer 유닛 활용<br>- 프로세스 우선순위 조정 (`nice`, `renice`) 및 `tuned-adm` 프로파일 적용<br>- `journalctl` 저널 로그 분석 및 영구 보존 설정<br>- Chrony 타임 서비스(NTP) 클라이언트 설정 | 미정 |
