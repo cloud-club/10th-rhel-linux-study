@@ -6,12 +6,13 @@
 
 ---
 
+
 ## 👥 Members (7명)
 
-| <img src="https://github.com/user-attachments/assets/4ae8a4d3-995b-469d-827d-4d2f812d8fcb" width="150"><br>김기석 | <img src="https://github.com/user-attachments/assets/a8af0e3b-2d40-47c9-a8b7-006578b2dee6" width="150"><br>김보겸 | <img src="https://github.com/user-attachments/assets/fac54da4-c987-419e-84b6-8b18d957de6b" width="150"><br>김성윤 | <img src="https://github.com/github.png" width="150"><br>박시윤 |
+| <img src="https://github.com/user-attachments/assets/4ae8a4d3-995b-469d-827d-4d2f812d8fcb" width="150"><br>김기석 | <img src="https://github.com/user-attachments/assets/a8af0e3b-2d40-47c9-a8b7-006578b2dee6" width="150"><br>김보겸 | <img src="https://github.com/user-attachments/assets/fac54da4-c987-419e-84b6-8b18d957de6b" width="150"><br>김성윤 | <img src="https://github.com/user-attachments/assets/5e7a3c91-3529-4008-bd20-af08f7daaca6" width="150"><br>박시윤 |
 | :---: | :---: | :---: | :---: |
 | 스터디장 | 참여자 | 참여자 | 참여자 |
-| [@kiseokkm](https://github.com/kiseokkm/) | [@k-kbk](https://github.com/k-kbk/) | [@sienna011022](https://github.com/sienna011022/) | [@github_id](https://github.com/) |
+| [@kiseokkm](https://github.com/kiseokkm/) | [@k-kbk](https://github.com/k-kbk/) | [@sienna011022](https://github.com/sienna011022/) | [@salzzing](https://github.com/salzzing/) |
 
 | <img src="https://github.com/user-attachments/assets/3f966cad-ce07-4aed-a6c3-7ae7917f2546" width="150"><br>박정우 | <img src="https://github.com/user-attachments/assets/299159c0-a4f3-4c3c-9072-7337f9410658" width="150"><br>이서영 | <img src="https://github.com/user-attachments/assets/dcd049c1-ea94-4287-a8ad-81bcd4207f24" width="150"><br>이주희 |
 | :---: | :---: | :---: |
