@@ -6,7 +6,7 @@
 
 문제 유형에 따라 아래 템플릿 중 하나를 선택해서 사용합니다.
 
-### `lab-command-template.md`
+### `lab-answer-template.md`
 
 개념 확인 또는 간단한 명령어 작성 문제에 사용합니다.
 
@@ -33,8 +33,9 @@
 현장 Quiz 참여 내용을 정리할 때 사용합니다.
 
 - 답안 작성
-- 오답 및 개념 정리
-- 배운 점 정리
+- 간단 코멘트 작성
+- 오답 및 개념 정리 (선택)
+- 배운 점 정리 (선택)
 
 Quiz 제출은 선택 사항입니다.
 
@@ -45,7 +46,7 @@ Quiz 제출은 선택 사항입니다.
 예:
 
 ```bash
-cp templates/lab-command-template.md members/<github-id>/weekNN/lab01.md
+cp templates/lab-answer-template.md members/<github-id>/weekNN/lab01.md
 cp templates/lab-practice-template.md members/<github-id>/weekNN/lab02.md
 cp templates/quiz-template.md members/<github-id>/weekNN/quiz.md
 
