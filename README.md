@@ -6,7 +6,6 @@
 
 ---
 
-
 ## 👥 Members (7명)
 
 | <img src="https://github.com/user-attachments/assets/4ae8a4d3-995b-469d-827d-4d2f812d8fcb" width="150"><br>김기석 | <img src="https://github.com/user-attachments/assets/a8af0e3b-2d40-47c9-a8b7-006578b2dee6" width="150"><br>김보겸 | <img src="https://github.com/user-attachments/assets/fac54da4-c987-419e-84b6-8b18d957de6b" width="150"><br>김성윤 | <img src="https://github.com/user-attachments/assets/5e7a3c91-3529-4008-bd20-af08f7daaca6" width="150"><br>박시윤 |
@@ -24,23 +23,37 @@
 ## 📂 저장소 구조 (Repository Structure)
 
 ```text
-10th-rhcsa-study/
+10th-rhel-linux-study/
+├── .github/
+│   └── pull_request_template.md    # 개인 실습 제출용 PR 템플릿
+│
+├── templates/                      # [공용] 개인 제출용 Markdown 템플릿
+│   ├── README.md                   # 템플릿 사용 및 제출 방법 안내
+│   ├── lab-answer-template.md      # 개념 / 명령어 답안 작성형 Lab
+│   ├── lab-practice-template.md    # 실제 Linux 환경 실습형 Lab
+│   └── quiz-template.md            # Quiz 답안 작성용 템플릿
+│
 ├── weeks/                          # [공용] 회차별 스터디 세션 공유 자료
 │   └── weekNN/                     # 주차별 폴더 (예: week01, week02)
-│       ├── presentation/           # 당일 발표자 2인의 발표 자료 
-│       ├── labs/                   # 발표자가 출제한 실습 문제지
-│       └── quiz.md                 # 세션 중 다 함께 푼 현장 개념 퀴즈 문제지
+│       ├── presentation/           # 당일 발표자 2인의 발표 자료
+│       ├── labs/                   # 발표자가 출제한 Lab 문제
+│       └── quiz.md                 # 세션 중 함께 진행하는 개념 Quiz
 │
-└── members/                        # [개인] 스터디원별 출석 & 과제 제출 공간
+└── members/                        # [개인] 스터디원별 실습 결과 제출 공간
     └── <github-id>/                # 개인 GitHub ID 폴더 (예: kiseokkm)
-        └── weekNN.md               # 실습 캡처 + 현장 퀴즈 답안 + 트러블슈팅 정리(선택)
-
+        └── weekNN/
+            ├── lab01.md            # Lab 01 결과
+            ├── lab02.md            # Lab 02 결과
+            ├── quiz.md             # Quiz 답안 (선택)
+            └── images/             # 실습 캡처 이미지 (필요한 경우)
 ```
+
+> 개인 제출 방법 및 템플릿 사용법은 [`templates/README.md`](./templates/README.md)를 참고해주세요.
 
 ---
 
-
 ## 🎯 스터디 목표 & 자료
+
 - **목표**: Red Hat Certified System Administrator (EX200) 자격증 취득 및 RHEL 10 기반 실무 운영 역량 강화
 - **주요 자료**:
   - Red Hat Official EX200 Exam Objectives (RHEL 10 기준 공식 출제 범위)
@@ -49,19 +62,25 @@
 
 ---
 
-
-
-
 ## 🛠️ 진행 방식 & 규칙
 
 ### ⏰ 스터디 시간
+
 - **매주 월요일 21:00 ~ 22:30** (60분~90분)
-- ### ⏱️ 세션 타임라인 (60분~90분)
-- **20분 (10분 x 2명)**: 해당 주차 핵심 개념 발표
-- **30분**: 실습 문제 2개 풀이 (발표자 2명 출제) & 스터디장 현장 개념 퀴즈
-  - 실습 진행 상황 및 남은 시간에 따라 현장 퀴즈 유연하게 진행
-- **20분~**: 라이브 트러블슈팅 및 질의응답
-- **세션 종료 후**: 실습 터미널 결과 캡처 + 퀴즈 정답 정리 후 `members/<github-id>/weekNN.md` 작성 및 PR 제출
+
+### ⏱️ 세션 타임라인
+
+- **20분 (10분 × 2명)**: 해당 주차 핵심 개념 발표
+- **30분**: 발표자가 준비한 Lab 2개 풀이 및 현장 개념 Quiz
+  - 발표자 2명이 각각 Lab 1개씩 출제
+  - 실습 진행 상황 및 남은 시간에 따라 Quiz는 유연하게 진행
+- **20분~**: 라이브 Troubleshooting 및 질의응답
+- **세션 종료 후**:
+  - Lab 결과 및 필요한 실습 이미지 정리
+  - Quiz 답안 정리 (선택)
+  - `members/<github-id>/weekNN/`에 작성 후 Pull Request 제출
+
+---
 
 ## 📅 8주 차 커리큘럼
 
