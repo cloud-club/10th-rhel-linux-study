@@ -87,10 +87,10 @@
 | 주차 | 주제 | 세부 내용 | 발표자 |
 | :---: | :--- | :--- | :---: |
 | **Week 1**<br>(8/31) | 사전 준비 | - 스터디 OT (자기소개, 스터디 규칙 및 GitHub 활용법)<br>- RHEL 10 / Rocky Linux 10 VM 환경 구축<br>- Shell 프롬프트 구조, 절대/상대 경로, 기본 명령어 (`ls`, `cd`, `mkdir`, `cp`, `mv`, `rm`) | 전체 |
-| **Week 2**<br>(9/7) | 계정/그룹 관리 및<br>기본 파일 권한 | - 사용자 및 그룹 생성/수정/삭제 (`useradd`, `usermod`, `groupadd`)<br>- 비밀번호 만료 정책 설정 및 Sudo 권한 부여 (`/etc/sudoers.d/`)<br>- 표준 ugo/rwx 권한 설정 (`chmod`, `chown`) 및 `umask` 이해 | 김기석<br>이주희 |
-| **Week 3**<br>(9/14) | 네트워크, Repos,<br>패키지 & SSH | - `nmcli`를 활용한 IPv4/IPv6 주소 및 Hostname 설정<br>- DNF/RPM 리포지토리 구성 및 패키지 관리 (`dnf`, `rpm`)<br>- Flatpak 리포지토리 구성 및 패키지 관리<br>- SSH 서비스 설정 및 키 기반 SSH 인증 구성 | 김보겸<br>김성윤 |
-| **Week 4**<br>(9/21) | 특수 권한, ACL,<br>탐색 & 아카이브 | - 특수 권한 (Setuid, Setgid, Sticky Bit) 및 협업 디렉토리 구축<br>- POSIX ACL 세부 권한 제어 (`setfacl`, `getfacl`)<br>- `find`, `grep` 정규표현식 활용 및 `tar`/`gzip`/`bzip2` 아카이브/압축<br>- Hard Link / Symbolic Link 생성 및 차이 이해 | 박시윤<br>미정 |
-| **Week 5**<br>(9/28) | 로컬 스토리지, LVM,<br>파일 시스템 & AutoFS | - GPT 파티션 생성/삭제 (`fdisk`, `gdisk`)<br>- LVM (PV, VG, LV) 생성/제거 및 무손실 LV 확장 (`lvextend -r`)<br>- VFAT, ext4, XFS 생성, Swap 추가, UUID 기반 `/etc/fstab` 영구 마운트<br>- NFS 공유 마운트 및 AutoFS 자동 마운트 구성 | 이서영<br>박정우 |
+| **Week 2**<br>(9/7) | 계정/그룹 관리 및<br>기본 파일 권한 | - 사용자 및 그룹 생성/수정/삭제 (`useradd`, `usermod`, `groupadd`)<br>- 비밀번호 만료 정책 설정 및 Sudo 권한 부여 (`/etc/sudoers.d/`)<br>- 표준 ugo/rwx 권한 설정 (`chmod`, `chown`) 및 `umask` 이해 | 기석<br>주희 |
+| **Week 3**<br>(9/14) | 네트워크, Repos,<br>패키지 & SSH | - `nmcli`를 활용한 IPv4/IPv6 주소 및 Hostname 설정<br>- DNF/RPM 리포지토리 구성 및 패키지 관리 (`dnf`, `rpm`)<br>- Flatpak 리포지토리 구성 및 패키지 관리<br>- SSH 서비스 설정 및 키 기반 SSH 인증 구성 | 보겸<br>성윤 |
+| **Week 4**<br>(9/21) | 특수 권한, ACL,<br>탐색 & 아카이브 | - 특수 권한 (Setuid, Setgid, Sticky Bit) 및 협업 디렉토리 구축<br>- POSIX ACL 세부 권한 제어 (`setfacl`, `getfacl`)<br>- `find`, `grep` 정규표현식 활용 및 `tar`/`gzip`/`bzip2` 아카이브/압축<br>- Hard Link / Symbolic Link 생성 및 차이 이해 | 시윤<br>서영 |
+| **Week 5**<br>(9/28) | 로컬 스토리지, LVM,<br>파일 시스템 & AutoFS | - GPT 파티션 생성/삭제 (`fdisk`, `gdisk`)<br>- LVM (PV, VG, LV) 생성/제거 및 무손실 LV 확장 (`lvextend -r`)<br>- VFAT, ext4, XFS 생성, Swap 추가, UUID 기반 `/etc/fstab` 영구 마운트<br>- NFS 공유 마운트 및 AutoFS 자동 마운트 구성 | 미정<br>정우 |
 | **Week 6**<br>(10/5) | Systemd 서비스,<br>방화벽 & SELinux | - Systemd 서비스 제어 및 부팅 시 자동 시작 설정 (`systemctl`)<br>- `firewall-cmd`를 이용한 영구(`--permanent`) 방화벽 규칙 적용<br>- SELinux 모드 전환, 파일 컨텍스트 (`semanage fcontext`, `restorecon`)<br>- SELinux 포트 레이블 관리 및 Booleans 설정 변경 | 미정 |
 | **Week 7**<br>(10/12) | 작업 예약, 로그 관리,<br>시간 동기화 & Tuned | - `at`, `crontab` 작업 예약 및 Systemd Timer 유닛 활용<br>- 프로세스 우선순위 조정 (`nice`, `renice`) 및 `tuned-adm` 프로파일 적용<br>- `journalctl` 저널 로그 분석 및 영구 보존 설정<br>- Chrony 타임 서비스(NTP) 클라이언트 설정 | 미정 |
 | **Week 8**<br>(10/19) | 부팅 프로세스, Root 복구<br>& 종합 트러블슈팅 | - GRUB 부트로더 수정 및 기본 부팅 타겟 변경<br>- 부팅 중단 및 `rd.break` 진입을 통한 Root 패스워드 재설정<br>- 간단한 Shell Script 작성 (조건문 `if`, 루프문 `for`, 인자 `$1` 처리)<br>- 전체 실습 환경 재부팅 후 설정 유지 점검 및 종합 트러블슈팅 | 미정 |
